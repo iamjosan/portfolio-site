@@ -1,0 +1,68 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css');
+*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css");
+@import url("http://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("prism.css");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+html {
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.avatar {
+  max-width: 171px;
+  max-height: 171px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.jumbotron {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#my-footer {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.loading {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 25%;
+}
+.load-fade-in {
+  animation: 3s fade-in forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text-center-small-screens {
+    text-align: center;
+  }
+}
+#sidenav-overlay {
+  display: none !important;
+}
